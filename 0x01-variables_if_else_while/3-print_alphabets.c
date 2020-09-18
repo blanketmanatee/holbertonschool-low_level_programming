@@ -17,7 +17,7 @@ int main(void)
 	}
 	while (letterU <= 'Z')
 	{
-		putchat(letterU);
+		putchar(letterU);
 		letterU++;
 	}
 	putchar('\n');
