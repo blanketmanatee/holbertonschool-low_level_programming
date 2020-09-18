@@ -12,7 +12,7 @@ int main(void)
 
 	while (letter <= 'z')
 	{
-		puthcar(letter);
+		putchar(letter);
 		letter++;
 	}
 	while (letterU <= 'Z')
