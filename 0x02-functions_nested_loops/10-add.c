@@ -3,7 +3,9 @@
 
 /**
  * add - adds two ints and returns result
- *
+ * @a: int
+ * @b: int
+ * Return: a + b
  */
 
 int add(int a, int b)
