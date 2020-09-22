@@ -3,6 +3,8 @@
 
 /**
  * _abs - computs absolute value of int
+ * @a: int
+ * Return: a
  */
 
 int _abs(int a)
