@@ -6,3 +6,14 @@
  */
 
 void _puts(char *str)
+{
+	int c;
+
+	while (*str)
+	{
+		c++;
+		_putchar(*str);
+		str++;
+	}
+	_putchar('\n');
+}
