@@ -2,8 +2,8 @@
 
 /**
  * _strcat - concatenates two strings
- * @dest - destination
- * @src - string to be copied
+ * @dest: destination
+ * @src: string to be copied
  * Return: pointer
  */
 
