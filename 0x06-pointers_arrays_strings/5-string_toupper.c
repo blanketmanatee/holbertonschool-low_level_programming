@@ -5,7 +5,7 @@
  * Return: p
  */
 
-char *string_toupper(char *)
+char *string_toupper(char *p)
 {
 	int m;
 
