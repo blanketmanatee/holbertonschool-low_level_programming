@@ -6,9 +6,9 @@
  * @n: number of elements in array
  */
 
-void reverse_array (int *a, int n)
+void reverse_array(int *a, int n)
 {
-	int i,b;
+	int i, b;
 
 	for (i = 0; i < (n / 2); i++)
 	{
