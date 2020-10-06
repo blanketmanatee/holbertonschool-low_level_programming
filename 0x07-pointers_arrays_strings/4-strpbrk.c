@@ -2,9 +2,9 @@
 
 /**
  * _strpbrk - searches a string for a set of bytes
- * @s:
- * @accept:
- * Return:
+ * @s: string
+ * @accept: bytes in string
+ * Return: pointer to s or NULL
  */
 
 char *_strpbrk(char *s, char *accept)
@@ -12,7 +12,7 @@ char *_strpbrk(char *s, char *accept)
 	int a = 0;
 	int b;
 
-	while(s[a])
+	while (s[a])
 	{
 		b = 0;
 		while (accept[b])
