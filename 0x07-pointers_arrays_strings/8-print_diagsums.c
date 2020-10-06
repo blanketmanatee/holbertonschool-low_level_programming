@@ -3,8 +3,8 @@
 
 /**
  * print_diagsums - prints the sum of the two diagonals of a sq matrix
- * @a:
- * @size:
+ * @a: pointer
+ * @size: int
  */
 
 void print_diagsums(int *a, int size)
