@@ -2,9 +2,9 @@
 
 /**
  * _strstr - locates a substring
- * @haystack:
- * @needle:
- * Return:
+ * @haystack: looking in
+ * @needle: looking for
+ * Return: pointer or NULL
  */
 
 char *_strstr(char *haystack, char *needle)
