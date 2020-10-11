@@ -6,11 +6,11 @@ int main(int argc, char *argv[])
 
 	argv = argv;
 
-	if (argc > 0)
+	if (argc >= 0)
 	{
 		for (count = 1; count < argc; count++)
 		{
-			printf("%d\n", count);
+			printf("%d\n", count - 1);
 		}
 	}
 	return (0);
