@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+
 /**
  * main - multiplies two numbers
  * @argc: count
@@ -6,7 +8,7 @@
  * Return: 0
  */
 
-int main(int argc, char *argv)
+int main(int argc, char **argv)
 {
 	int product;
 
@@ -17,7 +19,7 @@ int main(int argc, char *argv)
 	}
 	else
 	{
-		result = atoi(argv[1]) * atoi(argv[2]);
+		product = atoi(argv[1]) * atoi(argv[2]);
 		printf("%d\n", product);
 		return (0);
 	}
