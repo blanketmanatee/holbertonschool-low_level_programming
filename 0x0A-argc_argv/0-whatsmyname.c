@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
  * main - prints name of program followed by new line
- * argc: void
- * argv: argument vecto
+ * @argc: void
+ * @argv: argument vecto
  * Return: 0
  */
 
