@@ -7,7 +7,7 @@
  * Return: str
  */
 
-char *str_concat(car *s1, char *s2)
+char *str_concat(char *s1, char *s2)
 {
 
 	int i = 0, j = 0, l = 0;
