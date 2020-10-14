@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * alloc_grid - 
+ * alloc_grid -alloc grid
  * @width: columns
  * @height: rows
  * Return: 2d array
