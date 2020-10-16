@@ -13,9 +13,9 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	unsigned int  i = 0, j = 0, count = 0;
 	char *new;
 /* treating NULL as an empty string */
-	if (!s1)
+	if (s1 == NULL)
 		s1 = "";
-	if (!s2)
+	if (s2 == NULL)
 		s2 = "";
 
 	while (s1[i])
@@ -28,7 +28,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		count = i + n;
 
 /* allocate memory for new string */
-	new = (char *) malloc((count + 1) * sizeof(char));
+	new =  malloc(sizeof(char) * (len + 1));
 	if (new == NULL)
 		return (NULL);
 /* concatenating strings into a new string */
@@ -37,7 +37,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	for (j = 0; i < count; j++)
 	{
 		new[i++] = s2[j];
-		new[i + 1] = '\0';
+		new[i] = '\0';
 	}
 	return (new);
 }
