@@ -13,16 +13,18 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	unsigned int i;
 
 /* if _calloc fails returns 0 */
-	if (nmemb == 0 || size == 0)
-		return (0);
+	if (nmemb <= 0 || size <= 0)
+		return (NULL);
 /* number of elements * size equals ptr */
 	ptr = malloc(nmemb * size);
 /* if ptr is NULL memory is not allocated and returns existing ptr */
 	if (ptr == NULL)
 		return (ptr);
 
-	for (i = 0; i < (nmemb + size); i++)
+	for (i = 0; i < (nmemb * size); i++)
+	{
 		ptr[i] = 0;
+	}
 
 	return (ptr);
 }
