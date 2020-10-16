@@ -28,7 +28,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		count = i + n;
 
 /* allocate memory for new string */
-	new =  malloc(sizeof(char) * (len + 1));
+	new =  malloc(sizeof(char) * (i + 1));
 	if (new == NULL)
 		return (NULL);
 /* concatenating strings into a new string */
