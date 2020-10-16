@@ -10,14 +10,13 @@
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	unsigned int = i, j, count;
+	unsigned int  i = 0, j = 0, count = 0;
 	char *new;
 /* treating NULL as an empty string */
 	if (!s1)
 		s1 = "";
 	if (!s2)
 		s2 = "";
-	i = 0, j = 0, count = 0;
 
 	while (s1[i])
 		i++;
