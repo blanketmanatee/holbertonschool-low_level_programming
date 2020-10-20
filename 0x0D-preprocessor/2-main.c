@@ -2,14 +2,10 @@
 
 /**
  * main - prints name of program
- * @argc: unused
- * @argv: name
- * Return: 0
  */
 
-int main(int argc, char *argv[])
+int main (void)
 {
-	argc = argc;
-	printf("%s\n", argv[0]);
+	printf("%s\n", __FILE__);
 	return (0);
 }
