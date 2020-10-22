@@ -2,7 +2,8 @@
 
 /**
  * get_op_func - gets func
- * @s:
+ * @s: pointer
+ * Return: function
  */
 
 int (*get_op_func(char *s))(int, int)

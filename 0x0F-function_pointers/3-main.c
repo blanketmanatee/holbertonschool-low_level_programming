@@ -2,6 +2,9 @@
 
 /**
  * main - main function
+ * @argc: count
+ * @argv: pointer
+ * Return: 0
  */
 
 int main(int argc, char **argv)
@@ -18,7 +21,7 @@ int main(int argc, char **argv)
 	if (idk == NULL || strlen(argv[2]) > 1)
 	{
 		printf("Error\n");
-		exit (99);
+		exit(99);
 	}
 	b = atoi(argv[3]);
 	a = atoi(argv[1]);
