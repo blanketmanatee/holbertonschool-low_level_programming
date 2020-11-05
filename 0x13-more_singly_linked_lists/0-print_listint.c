@@ -2,7 +2,7 @@
 
 /**
  * print_listint - print all elements of listint_t
- * @h:
+ * @h: pointer
  * Return: number of nodes
  */
 
@@ -10,7 +10,7 @@ size_t print_listint(const listint_t *h)
 
 {
 
-	unsigned int cnt = 0;
+        size_t cnt = 0;
 
 	while (h != NULL)
 	{
