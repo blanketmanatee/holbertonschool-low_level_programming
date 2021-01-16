@@ -15,7 +15,7 @@
      hash_table_t *htable = NULL;
      hash_node_t **arr = NULL;
 
-     htable = malloc(sizeof(hash_tablet));
+     htable = malloc(sizeof(hash_table_t));
      if (htable == NULL)
         return (NULL);
     
@@ -29,4 +29,5 @@
     htable->size = size;
     htable->array = arr;
     return(htable);
+
  }
