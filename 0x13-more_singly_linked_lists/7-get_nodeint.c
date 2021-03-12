@@ -2,8 +2,8 @@
 
 /**
  * get_nodeint_at_index - returns the nth node of listint_t
- * @head:
- * @index:
+ * @head: pointer to first node
+ * @index: node
  * Return: NULL If node does not exist
  */
 
