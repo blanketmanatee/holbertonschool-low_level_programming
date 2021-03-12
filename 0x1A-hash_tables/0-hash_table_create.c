@@ -3,11 +3,11 @@
 #include "hash_tables.h"
 
 /**
- * hash_tables_create - creates a hash table
- * @size: size of the array
- * 
- * Return: ptr to new hash table
- */
+*hash_tables_create - creates a hash table
+*@size: size of the array
+*
+*Return: ptr to new hash table
+*/
  
  hash_table_t *hash_table_create(unsigned long int size)
 {
