@@ -28,6 +28,6 @@
 
 	htable->size = size;
 	htable->array = arr;
-	return(htable);
+	return (htable);
 
 }
